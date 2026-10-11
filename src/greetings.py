@@ -1,3 +1,3 @@
 def greet(name):
-    name = name.lower()
+    name = name.strip()
     return f"Hello, {name}!"
